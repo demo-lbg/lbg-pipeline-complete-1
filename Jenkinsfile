@@ -9,7 +9,7 @@ pipeline{
             stage('Checkout Code') {
                 steps {
                 // Get some code from a GitHub repository
-                git branch: 'main', url: 'https://github.com/QA-Instructor/lbg-pipeline-complete-1.git'
+                git branch: 'main', url: 'https://github.com/demo-lbg/lbg-pipeline-complete-1.git'
                 }
             }
             stage('Install Dependencies') {
